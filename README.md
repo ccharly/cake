@@ -1,4 +1,4 @@
-Some cooking in `c++`!
+## Some cooking in `c++`!
 
 - - -
 
@@ -8,12 +8,12 @@ package management!
 
 It will look something like this:
 
-```
+```sh
 # Creating a new basic project
 cake new hello_world
 ```
 
-```
+```sh
 # Build the project (based on some config)
 cake build
 ```
@@ -25,7 +25,7 @@ And so on and so on...
 Instead of having config file written in `.json`, `.toml` or whatever popular format, config will
 _*probably*_ be written in c++ directly... Something like:
 
-```
+```c++
 # Cakefile.cpp
 #include <cake/cake.hpp>
 
